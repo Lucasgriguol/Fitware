@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LTS Fitware</title>
+    <meta name="description"
+        content="LTS Fitware — Páginas web, aplicaciones y sistemas a medida. Diseño, desarrollo e integraciones." />
+    <meta name="theme-color" content="#040405" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="site-header" role="banner">
+            <div class="brand">
+                <div class="logo-box" aria-hidden="true">LTS</div>
+                <div class="brand-meta">
+                    <div class="brand-title">LTS Fitware</div>
+                    <div class="brand-sub">Web · Apps · Software</div>
+                </div>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-controls="mainNav" aria-expanded="false"
+                aria-label="Abrir menú">
+                <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <rect width="22" height="2" rx="1" fill="white" />
+                    <rect y="6" width="22" height="2" rx="1" fill="white" />
+                    <rect y="12" width="22" height="2" rx="1" fill="white" />
+                </svg>
+            </button>
+
+            <nav id="mainNav" class="main-nav" aria-label="Menú principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proceso">Cómo trabajamos</a>
+                <a href="#equipo">Nosotros</a>
+                <a href="#contacto" class="btn">Contacto</a>
+            </nav>
+
+            <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+                <div class="mobile-menu-inner" role="menu">
+                    <button class="mobile-close" id="navClose" aria-label="Cerrar menú">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true">
+                            <path d="M18 6L6 18" stroke="#021729" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M6 6L18 18" stroke="#021729" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <a href="#inicio" role="menuitem" class="mobile-link">Inicio</a>
+                    <a href="#servicios" role="menuitem" class="mobile-link">Servicios</a>
+                    <a href="#proceso" role="menuitem" class="mobile-link">Cómo trabajamos</a>
+                    <a href="#equipo" role="menuitem" class="mobile-link">Nosotros</a>
+                    <a href="#contacto" role="menuitem" class="mobile-link btn">Contacto</a>
+                </div>
+            </div>
+        </header>
+
+        <main role="main">
+            <section id="inicio" class="hero" aria-label="hero">
+                <div class="badge">Transformamos ideas en software que funciona</div>
+                <h1>Convertimos proyectos en productos digitales listos para crecer</h1>
+                <div class="lead">Páginas web, aplicaciones y sistemas a medida. Rápido, directo, sin vueltas.</div>
+                <p class="sub">Diseño, desarrollo, integraciones y soporte — trabajamos con lo que funciona.</p>
+                <div class="actions">
+                    <a class="btn" href="#contacto">Cotizar ahora</a>
+                </div>
+            </section>
+
+            <div class="section-title" id="servicios">SERVICIOS</div>
+
+            <section class="services" aria-label="Servicios ofrecidos">
+                <div class="row top">
+                    <article class="card card-1" tabindex="0" aria-labelledby="s1">
+                        <span class="badge-pop" aria-hidden="true">POPULAR</span>
+                        <div class="media" aria-hidden="true">
+                            <svg viewBox="0 0 120 80" width="260" height="136" xmlns="http://www.w3.org/2000/svg"
+                                role="img">
+                                <rect x="2" y="6" rx="8" width="116" height="68" fill="#021729" />
+                                <rect x="12" y="16" width="72" height="10" rx="5" fill="#39d1ff" />
+                                <rect x="12" y="34" width="96" height="6" rx="3" fill="#eaf6ff" opacity=".12" />
+                                <circle cx="96" cy="44" r="8" fill="#ffd86b" />
+                            </svg>
+                        </div>
+                        <h3 id="s1">Webs que convierten</h3>
+                        <p>Landing pages, e-commerce y sitios corporativos optimizados para velocidad y conversión.</p>
+                        <p class="small muted">SEO técnico, Core Web Vitals y A/B testing como opcionales.</p>
+                        <div class="footer">
+                            <button class="btn" aria-label="Quiero una web">Quiero una web</button>
+                        </div>
+                    </article>
+
+                    <article class="card card-2" tabindex="0" aria-labelledby="s2">
+                        <div class="accent-bar" aria-hidden="true"></div>
+                        <div class="glass-icon" aria-hidden="true">
+                            <svg viewBox="0 0 100 100" width="72" height="72" xmlns="http://www.w3.org/2000/svg"
+                                role="img">
+                                <defs>
+                                    <linearGradient id="g2" x1="0" x2="1">
+                                        <stop offset="0" stop-color="#9ff0ff" />
+                                        <stop offset="1" stop-color="#39d1ff" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="8" y="8" width="84" height="84" rx="14" fill="url(#g2)" />
+                                <g transform="translate(18,20)" fill="#021729">
+                                    <rect x="4" y="34" width="64" height="8" rx="4" />
+                                    <rect x="4" y="18" width="44" height="8" rx="4" />
+                                    <rect x="4" y="6" width="64" height="8" rx="4" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 id="s2">Plataformas a medida</h3>
+                        <p>Construimos product-led dashboards y plataformas centradas en datos y eficiencia.</p>
+                        <div class="micro">Micro-services, roles y pipelines observables.</div>
+                        <div class="meta-row">
+                            <div class="meta-text">Integraciones listas</div>
+                            <button class="btn" aria-label="Solicitar demo">Solicitar demo</button>
+                        </div>
+                    </article>
+
+                    <article class="card card-3" tabindex="0" aria-labelledby="s3">
+                        <div class="glow-dot" aria-hidden="true"></div>
+                        <span class="neon-title" aria-hidden="true">ALTA DISPONIBILIDAD</span>
+                        <h3 id="s3">Integraciones & APIs</h3>
+                        <p>Pagos, ERPs, CRMs y flujos entre sistemas con seguridad y observabilidad de nivel enterprise.
+                        </p>
+                        <div class="pill-row">
+                            <span class="pill">Webhooks</span>
+                            <span class="pill">OAuth2</span>
+                        </div>
+                        <div class="footer" style="margin-top:auto">
+                            <button class="btn-ghost" aria-label="Ver casos">Ver casos</button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="row bottom">
+                    <article class="card card-4" tabindex="0" aria-labelledby="s4">
+                        <h3 id="s4">Soporte & Mantenimiento</h3>
+                        <p class="small">Planes con SLA, fixes urgentes y monitorización 24/7.</p>
+                        <div class="chart" aria-hidden="true">
+                            <svg viewBox="0 0 120 60" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                                role="img" preserveAspectRatio="xMidYMid meet">
+                                <defs>
+                                    <linearGradient id="cgrad" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0" stop-color="#39d1ff" stop-opacity="0.9" />
+                                        <stop offset="1" stop-color="#0057d9" stop-opacity="0.2" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="0" y="0" width="120" height="60" rx="8" fill="transparent" />
+                                <polyline points="6,46 22,38 38,30 54,22 70,26 86,18 102,12 114,8" fill="none"
+                                    stroke="url(#cgrad)" stroke-width="3" stroke-linejoin="round"
+                                    stroke-linecap="round" />
+                                <circle cx="114" cy="8" r="3.6" fill="#ffd86b" />
+                            </svg>
+                        </div>
+                        <div class="meta">
+                            <div class="chip">SLA 24/7</div>
+                            <div class="chip">Backups</div>
+                            <div style="margin-left:auto">
+                                <button class="btn-outline" aria-label="Ver planes soporte">Ver planes</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card card-5" tabindex="0" aria-labelledby="s5">
+                        <div class="grid-pattern" aria-hidden="true"></div>
+                        <h3 id="s5">Migraciones & Escalado</h3>
+                        <p>Migración de infra, optimización de costos y arquitectura para alta disponibilidad.</p>
+                        <div class="chip-row">
+                            <span class="chip-float">Kubernetes</span>
+                            <span class="chip-float"
+                                style="background:linear-gradient(90deg,#9be7ff,#39d1ff)">CI/CD</span>
+                        </div>
+                        <div class="footer" style="margin-top:auto">
+                            <button class="btn-ghost" aria-label="Planificar migración">Planificar</button>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="section-title" id="proceso">CÓMO TRABAJAMOS</div>
+
+            <div class="work-process">
+                <div class="process-root" role="list">
+                    <div class="timeline" role="list">
+                        <article class="step left" data-accent="a" tabindex="0">
+                            <div class="circle">1</div>
+                            <div class="step-content">
+                                <h4>Brief & Descubrimiento</h4>
+                                <p>Objetivos, KPIs y restricciones en una sesión enfocada.</p>
+                                <div class="meta">Entrega: resumen del scope & backlog inicial.</div>
+                            </div>
+                        </article>
+
+                        <article class="step right" data-accent="b" tabindex="0">
+                            <div class="circle">2</div>
+                            <div class="step-content">
+                                <h4>Diseño & Prototipado</h4>
+                                <p>Prototipos clicables para validar UX antes de código.</p>
+                                <div class="meta">Incluye pruebas de usabilidad.</div>
+                            </div>
+                        </article>
+
+                        <article class="step left" data-accent="c" tabindex="0">
+                            <div class="circle">3</div>
+                            <div class="step-content">
+                                <h4>Desarrollo por Sprints</h4>
+                                <p>Sprints cortos, entregas incrementales y CI/CD.</p>
+                                <div class="meta">Releases semanales y demos.</div>
+                            </div>
+                        </article>
+
+                        <article class="step right" data-accent="d" tabindex="0">
+                            <div class="circle">4</div>
+                            <div class="step-content">
+                                <h4>QA, Performance & Security</h4>
+                                <p>Pruebas automáticas/manuales y chequeos de seguridad.</p>
+                                <div class="meta">Reportes y mitigación.</div>
+                            </div>
+                        </article>
+
+                        <article class="step left" data-accent="e" tabindex="0">
+                            <div class="circle">5</div>
+                            <div class="step-content">
+                                <h4>Despliegue & Soporte</h4>
+                                <p>Deploy controlado, monitoreo y soporte post-lanzamiento.</p>
+                                <div class="meta">Alertas, dashboards y soporte acordado.</div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">NOSOTROS</div>
+            <section id="equipo" class="team-section" aria-labelledby="team-title">
+                <div class="team-hero">
+                    <div class="intro">
+                        <h2 id="team-title">Equipo multidisciplinario</h2>
+                        <p class="intro-sub">Remoto, product-first, entregando valor desde el primer sprint.</p>
+                        <div class="cta-row">
+                            <button class="btn">Contactar al equipo</button>
+                            <a class="btn-outline" href="#servicios">Ver servicios</a>
+                        </div>
+                    </div>
+
+                    <div class="stats">
+                        <div><strong>3</strong>
+                            <div class="muted">Integrantes</div>
+                        </div>
+                        <div><strong>+50</strong>
+                            <div class="muted">Proyectos</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-grid" id="team-grid">
+                    <article class="member-card" tabindex="0" data-name="Lucas Griguol">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <div class="badge-role">Lead</div>
+                                <div class="avatar-wrap">
+                                    <div class="avatar">
+                                        <img class="avatar-img" src="images/lucas.jpg" alt="Lucas Griguol"
+                                            loading="lazy">
+                                        <div class="avatar-fallback">L</div>
+                                    </div>
+                                    <div>
+                                        <div class="member-name">Lucas Griguol</div>
+                                        <div class="member-role">Frontend Developer · UI</div>
+                                    </div>
+                                </div>
+                                <p class="bio">Interfaces rápidas y accesibles. Pixel-perfect al servicio del producto.
+                                </p>
+                                <div class="expertise">
+                                    <span class="chip">React</span><span class="chip">Accessibility</span><span
+                                        class="chip">Performance</span>
+                                </div>
+                                <div class="case">Caso: Rediseño de landing +35% en leads.</div>
+                                <div class="socials">
+                                    <a href="#" aria-label="LinkedIn Lucas">in</a>
+                                    <a href="#" aria-label="GitHub Lucas">gh</a>
+                                    <a href="#" aria-label="Email Lucas">✉️</a>
+                                </div>
+                                <div class="card-actions"><button class="btn-outline flip-btn">Más</button></div>
+                            </div>
+
+                            <div class="card-face card-back">
+                                <h4>Lo que hago</h4>
+                                <ul class="back-list">
+                                    <li>UIs escalables.</li>
+                                    <li>Optimizo Core Web Vitals.</li>
+                                </ul>
+                                <div class="quote">"El detalle marca la diferencia."</div>
+                                <div class="back-actions"><button class="btn-outline flip-btn">Volver</button><button
+                                        class="btn">Contactar</button></div>
+                            </div>
+                        </div>
+                        <div class="accent-blob"></div>
+                    </article>
+
+                    <article class="member-card" tabindex="0" data-name="Tomas Bosco">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <div class="badge-role">Systems</div>
+                                <div class="avatar-wrap">
+                                    <div class="avatar"><img class="avatar-img" src="images/tomas.jpg" alt="Tomas Bosco"
+                                            loading="lazy">
+                                        <div class="avatar-fallback">T</div>
+                                    </div>
+                                    <div>
+                                        <div class="member-name">Tomas Bosco</div>
+                                        <div class="member-role">Backend · APIs</div>
+                                    </div>
+                                </div>
+                                <p class="bio">Arquitecturas robustas, observabilidad y coste-eficiencia.</p>
+                                <div class="expertise"><span class="chip">APIs</span><span class="chip">Postgres</span>
+                                </div>
+                                <div class="case">Caso: Migración — 40% menos latencia.</div>
+                                <div class="socials"><a href="#" aria-label="LinkedIn Tomas">in</a><a href="#"
+                                        aria-label="GitHub Tomas">gh</a></div>
+                                <div class="card-actions"><button class="btn-outline flip-btn">Más</button></div>
+                            </div>
+                            <div class="card-face card-back">
+                                <h4>Lo que hago</h4>
+                                <ul class="back-list">
+                                    <li>APIs seguras.</li>
+                                    <li>Automatización infra.</li>
+                                </ul>
+                                <div class="quote">"Simplicidad y observabilidad."</div>
+                                <div class="back-actions"><button class="btn-outline flip-btn">Volver</button><button
+                                        class="btn">Contactar</button></div>
+                            </div>
+                        </div>
+                        <div class="accent-blob"
+                            style="background:radial-gradient(circle at 30% 30%, rgba(255,215,107,0.12), transparent 40%)">
+                        </div>
+                    </article>
+
+                    <article class="member-card" tabindex="0" data-name="Santiago Sanchez">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <div class="badge-role">Infra</div>
+                                <div class="avatar-wrap">
+                                    <div class="avatar"><img class="avatar-img" src="images/santiago.jpg"
+                                            alt="Santiago Sanchez" loading="lazy">
+                                        <div class="avatar-fallback">S</div>
+                                    </div>
+                                    <div>
+                                        <div class="member-name">Santiago (el salchi) Sanchez</div>
+                                        <div class="member-role">Backend · Infra</div>
+                                    </div>
+                                </div>
+                                <p class="bio">Pipelines y automatización para ambientes de producción seguros.</p>
+                                <div class="expertise"><span class="chip">CI/CD</span><span class="chip">Docker</span>
+                                </div>
+                                <div class="case">Caso: CI que redujo deploys 70%.</div>
+                                <div class="socials"><a href="#" aria-label="LinkedIn Santiago">in</a><a href="#"
+                                        aria-label="GitHub Santiago">gh</a></div>
+                                <div class="card-actions"><button class="btn-outline flip-btn">Más</button></div>
+                            </div>
+                            <div class="card-face card-back">
+                                <h4>Lo que hago</h4>
+                                <ul class="back-list">
+                                    <li>Automatización CI/CD.</li>
+                                    <li>Alertas y playbooks.</li>
+                                </ul>
+                                <div class="quote">"Automatizar es liberar tiempo."</div>
+                                <div class="back-actions"><button class="btn-outline flip-btn">Volver</button><button
+                                        class="btn">Contactar</button></div>
+                            </div>
+                        </div>
+                        <div class="accent-blob"
+                            style="background:radial-gradient(circle at 30% 30%, rgba(155,199,255,0.08), transparent 40%)">
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="section-title" id="contacto">CONTACTO</div>
+
+            <section class="contact-hero" aria-label="Contacto">
+                <div class="contact-panel contact-main">
+                    <h2>Hablémos — sin vueltas</h2>
+                    <p class="lead">Decinos tu idea y te respondemos con plan, costos estimados y próximos pasos.</p>
+                    <p class="muted">Elegí: mensaje, llamada o agendá una demo. Canal de urgencias disponible.</p>
+
+                    <div class="contact-grid" role="list">
+                        <div class="contact-method" role="listitem">
+                            <div class="method-head">
+                                <div class="icon">✉️</div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p class="muted">Casos detallados y adjuntos.</p>
+                                </div>
+                            </div>
+                            <div class="method-cta"><a class="cta-large" href="mailto:hola@ltsfitware.com">Enviar
+                                    email</a></div>
+                        </div>
+
+                        <div class="contact-method" role="listitem">
+                            <div class="method-head">
+                                <div class="icon">💬</div>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <p class="muted">Respuestas ágiles y envío de capturas.</p>
+                                </div>
+                            </div>
+                            <div class="method-cta"><a class="cta-large" href="https://wa.me/5491123456789"
+                                    target="_blank" rel="noopener noreferrer">Chatear ahora</a></div>
+                        </div>
+
+                        <div class="contact-method" role="listitem">
+                            <div class="method-head">
+                                <div class="icon">📅</div>
+                                <div>
+                                    <h4>Agendar demo</h4>
+                                    <p class="muted">Reservá 30min para propuesta y demo.</p>
+                                </div>
+                            </div>
+                            <div class="method-cta"><a class="cta-large" href="https://calendly.com/" target="_blank"
+                                    rel="noopener noreferrer">Agendá una demo</a></div>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;gap:12px;margin-top:18px;align-items:center">
+                        <button class="cta-secondary">Ver portfolio</button>
+                        <button class="cta-secondary">Ver casos</button>
+                    </div>
+
+                    <div class="contact-strip" style="margin-top:18px">
+                        <div class="left">¿Emergencia? Tenés soporte rápido.</div>
+                        <div class="right">
+                            <div class="muted">Soporte urgente</div>
+                            <a class="cta-large" href="https://wa.me/5491123456789" target="_blank">Resolver ahora</a>
+                        </div>
+                    </div>
+                </div>
+
+                <aside class="support-aside">
+                    <div class="support-card">
+                        <div style="display:flex;justify-content:space-between;align-items:center">
+                            <div>
+                                <div class="support-flag">URGENTE</div>
+                                <h4 style="margin-top:10px">Soporte y SLAs</h4>
+                                <p class="muted">Planes con prioridad y respuesta en minutos según SLA.</p>
+                            </div>
+                        </div>
+
+                        <div class="hours">
+                            <div><strong>Horario Atención:</strong> Lun–Sab 09:00–21:00 (UTC-3)</div>
+                            <div><strong>Tiempo de respuesta:</strong> 10min–1hs</div>
+                        </div>
+
+                        <div style="display:flex;gap:8px;margin-top:12px;align-items:center">
+                            <a class="cta-large" href="mailto:hola@ltsfitware.com">Contactar soporte</a>
+                            <a class="cta-secondary" href="#servicios">Ver servicios</a>
+                        </div>
+
+                        <div class="testimonials" style="margin-top:14px">
+                            <div class="testimonial">"Respondieron rápido y el fix fue aplicado en menos de 2 horas." —
+                                Cliente SaaS</div>
+                            <div class="testimonial">"Muy claros en costos y entregables. Buen equipo." — Marketplace
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </section>
+
+            <section style="max-width:1100px;margin:28px auto 0">
+                <div class="muted center">Preferís mensaje corto? WhatsApp: <strong>+54 9 11 2345 6789</strong> • Email:
+                    <strong>hola@ltsfitware.com</strong>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer" role="contentinfo">
+            LTS Fitware • © <span id="year"></span>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        (function () {
+            const selector = '.member-card, .card, .step, .contact-method';
+            const els = document.querySelectorAll(selector);
+            if ('IntersectionObserver' in window) {
+                const io = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(e => {
+                        if (e.isIntersecting) {
+                            e.target.classList.add('visible', 'in-view');
+                            obs.unobserve(e.target);
+                        }
+                    });
+                }, { threshold: 0.12 });
+                els.forEach(el => io.observe(el));
+            } else {
+                els.forEach(el => el.classList.add('visible', 'in-view'));
+            }
+        })();
+
+        document.addEventListener('click', (e) => {
+            const btn = e.target.closest('.flip-btn');
+            if (!btn) return;
+            const card = btn.closest('.member-card');
+            if (card) card.classList.toggle('flipped');
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+            const el = document.activeElement;
+            if (el && el.classList && el.classList.contains('member-card')) {
+                e.preventDefault();
+                el.classList.toggle('flipped');
+            }
+        });
+
+        (function () {
+            document.querySelectorAll('.avatar').forEach(wrapper => {
+                const img = wrapper.querySelector('.avatar-img');
+                const fallback = wrapper.querySelector('.avatar-fallback');
+                if (!img) { if (fallback) fallback.style.display = 'flex'; return; }
+                img.addEventListener('load', () => { if (img.naturalWidth) { img.style.display = 'block'; fallback && (fallback.style.display = 'none'); } });
+                img.addEventListener('error', () => { img.style.display = 'none'; fallback && (fallback.style.display = 'flex'); });
+                setTimeout(() => { if (img && (!img.naturalWidth || img.naturalHeight === 0)) { img.style.display = 'none'; fallback && (fallback.style.display = 'flex'); } }, 80);
+            });
+        })();
+
+        (function () {
+            if ('IntersectionObserver' in window) {
+                const steps = document.querySelectorAll('.timeline .step');
+                const obs = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('in-view'); });
+                }, { threshold: 0.16 });
+                steps.forEach(s => obs.observe(s));
+            } else {
+                document.querySelectorAll('.timeline .step').forEach(s => s.classList.add('in-view'));
+            }
+        })();
+
+        (function () {
+            if (!('matchMedia' in window) || !window.matchMedia('(pointer:fine)').matches) return;
+            const elements = document.querySelectorAll('.card, .member-card, .contact-method');
+            elements.forEach(el => {
+                let raf = null;
+                const handler = (e) => {
+                    if (raf) cancelAnimationFrame(raf);
+                    raf = requestAnimationFrame(() => {
+                        const r = el.getBoundingClientRect();
+                        const px = (e.clientX - r.left) / r.width - 0.5;
+                        const py = (e.clientY - r.top) / r.height - 0.5;
+                        const rx = (-py * 3).toFixed(2);
+                        const ry = (px * 3).toFixed(2);
+                        el.style.transform = `translateY(-6px) rotateX(${rx}deg) rotateY(${ry}deg) scale(1.01)`;
+                    });
+                };
+                el.addEventListener('pointermove', handler);
+                el.addEventListener('pointerleave', () => { el.style.transform = ''; });
+            });
+        })();
+
+        (function () {
+            const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+            if (mq && mq.matches) document.querySelectorAll('.card, .member-card, .step, .contact-method').forEach(el => el.style.transition = 'none');
+        })();
+
+        (function () {
+            const navToggle = document.getElementById('navToggle');
+            const navClose = document.getElementById('navClose');
+            const mobileMenu = document.getElementById('mobileMenu');
+            function openMenu() {
+                mobileMenu.classList.add('open');
+                mobileMenu.setAttribute('aria-hidden', 'false');
+                navToggle.setAttribute('aria-expanded', 'true');
+                document.body.style.overflow = 'hidden';
+            }
+            function closeMenu() {
+                mobileMenu.classList.remove('open');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                navToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
+            navToggle.addEventListener('click', (e) => {
+                const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+                if (expanded) closeMenu(); else openMenu();
+            });
+            navClose.addEventListener('click', closeMenu);
+            mobileMenu.addEventListener('click', (e) => {
+                if (e.target === mobileMenu) closeMenu();
+                if (e.target.classList.contains('mobile-link')) closeMenu();
+            });
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 980 && mobileMenu.classList.contains('open')) closeMenu();
+            });
+        })();
+    </script>
+</body>
+
+</html>
