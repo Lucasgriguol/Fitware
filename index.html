@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LTS Fitware</title>
+    <meta name="description"
+        content="LTS Fitware — Páginas web, aplicaciones y sistemas a medida. Diseño, desarrollo e integraciones." />
+    <meta name="theme-color" content="#040405" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="site-header" role="banner">
+            <div class="brand">
+                <img class="logo-box" aria-hidden="true" src="Logo.png" alt="">
+                <div class="brand-meta">
+                    <div class="brand-title">LTS Fitware</div>
+                    <div class="brand-sub">Web · Apps · Software</div>
+                </div>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-controls="mainNav" aria-expanded="false"
+                aria-label="Abrir menú">
+                <svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <rect width="22" height="2" rx="1" fill="white" />
+                    <rect y="6" width="22" height="2" rx="1" fill="white" />
+                    <rect y="12" width="22" height="2" rx="1" fill="white" />
+                </svg>
+            </button>
+
+            <nav id="mainNav" class="main-nav" aria-label="Menú principal">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#proceso">Cómo trabajamos</a>
+                <a href="#equipo">Nosotros</a>
+                <a href="#contacto" class="btn">Contacto</a>
+            </nav>
+
+            <div id="mobileMenu" class="mobile-menu" aria-hidden="true">
+                <div class="mobile-menu-inner" role="menu">
+                    <button class="mobile-close" id="navClose" aria-label="Cerrar menú">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true">
+                            <path d="M18 6L6 18" stroke="#021729" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M6 6L18 18" stroke="#021729" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <a href="#inicio" role="menuitem" class="mobile-link">Inicio</a>
+                    <a href="#servicios" role="menuitem" class="mobile-link">Servicios</a>
+                    <a href="#proceso" role="menuitem" class="mobile-link">Cómo trabajamos</a>
+                    <a href="#equipo" role="menuitem" class="mobile-link">Nosotros</a>
+                    <a href="#contacto" role="menuitem" class="mobile-link btn">Contacto</a>
+                </div>
+            </div>
+        </header>
+
+        <main role="main">
+            <section id="inicio" class="hero" aria-label="hero">
+                <div class="badge">Creamos el software que tu negocio necesita</div>
+                <h1>Software con propósito, el propósito que tu elijas.</h1>
+                <div class="lead">Páginas web, aplicaciones y sistemas a medida. Rápido, directo, sin vueltas.</div>
+                <p class="sub">Diseño, desarrollo, integraciones y soporte.</p>
+                <div class="actions">
+                    <a class="btn" href="#contacto">Contactanos</a>
+                </div>
+            </section>
+
+            <div class="section-title" id="servicios">SERVICIOS</div>
+
+            <section class="services" aria-label="Servicios ofrecidos">
+                <div class="row top">
+                    <article class="card card-1" tabindex="0" aria-labelledby="s1">
+                        <span class="badge-pop" aria-hidden="true">POPULAR</span>
+                        <div class="media" aria-hidden="true">
+                            <svg viewBox="0 0 120 80" width="260" height="136" xmlns="http://www.w3.org/2000/svg"
+                                role="img">
+                                <rect x="2" y="6" rx="8" width="116" height="68" fill="#021729" />
+                                <rect x="12" y="16" width="72" height="10" rx="5" fill="#39d1ff" />
+                                <rect x="12" y="34" width="96" height="6" rx="3" fill="#eaf6ff" opacity=".12" />
+                                <circle cx="96" cy="44" r="8" fill="#ffd86b" />
+                            </svg>
+                        </div>
+                        <h3 id="s1">Aplicaciones Web</h3>
+                        <p>Informes, catalogos y e-commerce con sistema de venta integrado.</p>
+                        <p class="small muted">Potenciá tu negocio con aplicaciones web que informan, muestran y venden
+                            de forma automatizada.</p>
+                        <div class="footer">
+                            <button href="#contacto" class="btn" aria-label="Quiero una web"><a href="#contacto"
+                                    style="color: black;">Quiero una web</a></button>
+                        </div>
+                    </article>
+
+                    <article class="card card-2" tabindex="0" aria-labelledby="s2">
+                        <div class="accent-bar" aria-hidden="true"></div>
+                        <div class="glass-icon" aria-hidden="true">
+                            <svg viewBox="0 0 100 100" width="72" height="72" xmlns="http://www.w3.org/2000/svg"
+                                role="img">
+                                <defs>
+                                    <linearGradient id="g2" x1="0" x2="1">
+                                        <stop offset="0" stop-color="#9ff0ff" />
+                                        <stop offset="1" stop-color="#39d1ff" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="8" y="8" width="84" height="84" rx="14" fill="url(#g2)" />
+                                <g transform="translate(18,20)" fill="#021729">
+                                    <rect x="4" y="34" width="64" height="8" rx="4" />
+                                    <rect x="4" y="18" width="44" height="8" rx="4" />
+                                    <rect x="4" y="6" width="64" height="8" rx="4" />
+                                </g>
+                            </svg>
+                        </div>
+                        <h3 id="s2">Soluciones digitales para cualquier industria</h3>
+                        <p>Desarrollamos software y plataformas personalizadas para todo tipo de sectores. Optimizamos
+                            procesos, reducimos costos y potenciamos la transformación digital de tu negocio.</p>
+                    </article>
+
+                    <article class="card card-3" tabindex="0" aria-labelledby="s3">
+                        <div class="glow-dot" aria-hidden="true"></div>
+                        <span class="neon-title" aria-hidden="true">ALTA VARIEDAD</span>
+                        <h3 id="s3">Software a Medida</h3>
+                        <p>Desarrollamos software a medida que se adaptan completamente a las necesidades de tu negocio.
+                        </p>
+                        <div class="pill-row">
+                            <span class="pill">Gestión de compra/ventas</span>
+                            <span class="pill">Seguridad</span>
+                            <span class="pill">Control de Stock</span>
+                            <span class="pill">Automatización</span>
+                            <span class="pill">Reportes</span>
+                        </div>
+                        <div class="footer" style="margin-top:auto">
+                            <button class="btn-ghost" aria-label="Ver casos"><a href="#contacto"
+                                    style="color: black;">Contanos tu idea</a></button>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="row bottom">
+                    <article class="card card-4" tabindex="0" aria-labelledby="s4">
+                        <h3 id="s4">Soporte & Mantenimiento</h3>
+                        <p class="small">Estamos contigo en todo momento: nuestro equipo ofrece soporte continuo y
+                            mantenimiento para que tus plataformas y sistemas funcionen sin interrupciones.</p>
+                        <div class="chart" aria-hidden="true">
+                            <svg viewBox="0 0 120 60" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                                role="img" preserveAspectRatio="xMidYMid meet">
+                                <defs>
+                                    <linearGradient id="cgrad" x1="0" x2="0" y1="0" y2="1">
+                                        <stop offset="0" stop-color="#39d1ff" stop-opacity="0.9" />
+                                        <stop offset="1" stop-color="#0057d9" stop-opacity="0.2" />
+                                    </linearGradient>
+                                </defs>
+                                <rect x="0" y="0" width="120" height="60" rx="8" fill="transparent" />
+                                <polyline points="6,46 22,38 38,30 54,22 70,26 86,18 102,12 114,8" fill="none"
+                                    stroke="url(#cgrad)" stroke-width="3" stroke-linejoin="round"
+                                    stroke-linecap="round" />
+                                <circle cx="114" cy="8" r="3.6" fill="#ffd86b" />
+                            </svg>
+                        </div>
+                    </article>
+
+                    <article class="card card-5" tabindex="0" aria-labelledby="s5">
+                        <div class="grid-pattern" aria-hidden="true"></div>
+                        <h3 id="s5">Migraciones & Escalado</h3>
+                        <p>Migramos tus sistemas de manera segura y adaptamos tus soluciones digitales para que crezcan
+                            junto con tu negocio, sin interrupciones ni pérdida de información.</p>
+                        <div class="chip-row">
+                            <span class="chip-float">Optimización</span>
+                            <span class="chip-float"
+                                style="background:linear-gradient(90deg,#9be7ff,#39d1ff)">Nube</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="section-title" id="proceso">CÓMO TRABAJAMOS</div>
+
+            <div class="work-process">
+                <div class="process-root" role="list">
+                    <div class="timeline" role="list">
+                        <article class="step left" data-accent="a" tabindex="0">
+                            <div class="circle">1</div>
+                            <div class="step-content">
+                                <h4>Analizamos tu idea</h4>
+                                <p>Nos reunimos para entender tu proyecto, tus objetivos y lo que querés lograr. Te
+                                    ayudamos a transformar la idea en un plan claro y viable.</p>
+                            </div>
+                        </article>
+
+                        <article class="step right" data-accent="b" tabindex="0">
+                            <div class="circle">2</div>
+                            <div class="step-content">
+                                <h4>Diseñamos la experiencia</h4>
+                                <p>Creamos las primeras interfaces y prototipos para que veas cómo va a lucir tu
+                                    producto. Ajustamos juntos hasta que refleje exactamente lo que imaginás.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="step left" data-accent="c" tabindex="0">
+                            <div class="circle">3</div>
+                            <div class="step-content">
+                                <h4>Planificamos y organizamos</h4>
+                                <p>Definimos las tecnologías, los tiempos y las prioridades. Armamos un plan de acción
+                                    transparente para que siempre sepas en qué etapa estamos.</p>
+                            </div>
+                        </article>
+
+                        <article class="step right" data-accent="d" tabindex="0">
+                            <div class="circle">4</div>
+                            <div class="step-content">
+                                <h4>Desarrollamos tu proyecto</h4>
+                                <p>Nuestro equipo de desarrollo pone manos a la obra, aplicando las mejores prácticas
+                                    para construir un software sólido, escalable y a medida.</p>
+                            </div>
+                        </article>
+
+                        <article class="step left" data-accent="e" tabindex="0">
+                            <div class="circle">5</div>
+                            <div class="step-content">
+                                <h4>Probamos y mejoramos</h4>
+                                <p>Antes del lanzamiento, realizamos pruebas y ajustes para garantizar que todo funcione
+                                    perfecto y la experiencia sea impecable.</p>
+                            </div>
+                        </article>
+
+                        <article class="step right" data-accent="d" tabindex="0">
+                            <div class="circle">6</div>
+                            <div class="step-content">
+                                <h4>Lanzamos y acompañamos</h4>
+                                <p>Publicamos tu producto y te damos soporte continuo para seguir mejorándolo con el
+                                    tiempo. Tu crecimiento también es el nuestro.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">NOSOTROS</div>
+            <section id="equipo" class="team-section" aria-labelledby="team-title">
+                <div class="team-hero">
+                    <div class="intro">
+                        <h2 id="team-title">Equipo multidisciplinario</h2>
+                        <p class="intro-sub">Somos un equipo especializado en soluciones digitales, capaces de
+                            desarrollar, implementar y optimizar herramientas tecnológicas a medida para todo tipo de
+                            negocios.</p>
+                        <div class="cta-row">
+                            <button class="btn"><a href="#contacto" style="color: black;">Contactar al
+                                    equipo</a></button>
+                            <a class="btn-outline" href="#servicios">Ver servicios</a>
+                        </div>
+                    </div>
+
+                    <div class="stats">
+                        <div><strong>3</strong>
+                            <div class="muted">Integrantes</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-grid" id="team-grid">
+                    <article class="member-card" tabindex="0" data-name="Lucas Griguol">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <div class="badge-role">Designer</div>
+                                <div class="avatar-wrap">
+                                    <div class="avatar">
+                                        <img class="avatar-img" src="images/lucas.jpg" alt="Lucas Griguol"
+                                            loading="lazy">
+                                        <div class="avatar-fallback">L</div>
+                                    </div>
+                                    <div>
+                                        <div class="member-name">Lucas Griguol</div>
+                                        <div class="member-role">Frontend Developer · UX/UI</div>
+                                    </div>
+                                </div>
+                                <p class="bio">Interfaces ágiles y optimizadas. Diseño preciso para garantizar la
+                                    calidad del producto.
+                                </p>
+                                <div class="expertise">
+                                    <span class="chip">UX/UI</span><span class="chip">Responsive</span>
+                                </div>
+                                <div class="socials">
+                                    <a href="https://www.linkedin.com/in/lucasgriguol/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="LinkedIn Lucas">in</a>
+                                    <a href="https://github.com/Lucasgriguol" target="_blank" rel="noopener noreferrer"
+                                        aria-label="GitHub Lucas">gh</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="accent-blob"></div>
+                    </article>
+
+                    <article class="member-card" tabindex="0" data-name="Tomas Bosco">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <div class="badge-role">Systems</div>
+                                <div class="avatar-wrap">
+                                    <div class="avatar"><img class="avatar-img" src="images/tomas.jpg" alt="Tomas Bosco"
+                                            loading="lazy">
+                                        <div class="avatar-fallback">T</div>
+                                    </div>
+                                    <div>
+                                        <div class="member-name">Tomas Bosco</div>
+                                        <div class="member-role">Backend · APIs</div>
+                                    </div>
+                                </div>
+                                <p class="bio">Arquitecturas robustas, observabilidad y coste-eficiencia.</p>
+                                <div class="expertise"><span class="chip">APIs Rest Full</span><span
+                                        class="chip">Postman</span>
+                                </div>
+                                <div class="socials">
+                                    <a href="https://linkedin.com/in/tomas-bosco-60489b2a8" target="_blank"
+                                        rel="noopener noreferrer" aria-label="LinkedIn Tomas">in</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer"
+                                        aria-label="GitHub Tomas">gh</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accent-blob"
+                            style="background:radial-gradient(circle at 30% 30%, rgba(255,215,107,0.12), transparent 40%)">
+                        </div>
+                    </article>
+
+                    <article class="member-card" tabindex="0" data-name="Santiago Sanchez">
+                        <div class="card-inner">
+                            <div class="card-face card-front">
+                                <div class="badge-role">Data Base</div>
+                                <div class="avatar-wrap">
+                                    <div class="avatar"><img class="avatar-img" src="images/santiago.jpg"
+                                            alt="Santiago Sanchez" loading="lazy">
+                                        <div class="avatar-fallback">S</div>
+                                    </div>
+                                    <div>
+                                        <div class="member-name">Santiago Sanchez</div>
+                                        <div class="member-role">Data Base · Seguridad</div>
+                                    </div>
+                                </div>
+                                <p class="bio">Gestion de la información del negocio, garantizando sistemas rápidos y
+                                    sin errores.
+                                </p>
+                                <div class="expertise"><span class="chip">SQL/NoSQL</span><span
+                                        class="chip">Python</span>
+                                </div>
+                                <div class="socials">
+                                    <a href="https://linkedin.com/in/santiago-sannchez-dev/" target="_blank"
+                                        rel="noopener noreferrer" aria-label="LinkedIn Santiago">in</a>
+                                    <a href="https://github.com/SantiiagoSanchez" target="_blank"
+                                        rel="noopener noreferrer" aria-label="GitHub Santiago">gh</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accent-blob"
+                            style="background:radial-gradient(circle at 30% 30%, rgba(155,199,255,0.08), transparent 40%)">
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <div class="section-title" id="contacto">CONTACTO</div>
+
+            <section>
+                <div class="contact-panel contact-main">
+                    <h2>Hablémos — sin vueltas</h2>
+                    <p class="lead">Decinos tu idea y te respondemos con plan, costos estimados y próximos pasos.</p>
+                    <p class="muted">Elegí: mensaje, llamada o agendá una reunión.</p>
+
+                    <div class="contact-grid" role="list">
+                        <div class="contact-method" role="listitem">
+                            <div class="method-head">
+                                <div class="icon">✉️</div>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p class="muted">Envíanos todos los detalles de tu proyecto. Te responderemos con
+                                        una respuesta completa en 24h.</p>
+                                </div>
+                            </div>
+                            <div class="method-cta"><a class="cta-large" href="mailto:ltsfitware@gmail.com">Enviar
+                                    email</a></div>
+                        </div>
+
+                        <div class="contact-method" role="listitem">
+                            <div class="method-head">
+                                <div class="icon">💬</div>
+                                <div>
+                                    <h4>WhatsApp (Recomendado)</h4>
+                                    <p class="muted">Chatea con nosotros en tiempo real. Ideal para consultas rápidas y
+                                        cordinación de reuniones.</p>
+                                </div>
+                            </div>
+                            <div class="method-cta"><a class="cta-large" href="https://wa.me/3515189273" target="_blank"
+                                    rel="noopener noreferrer">Chatear ahora</a></div>
+                        </div>
+
+                        <div class="contact-method" role="listitem">
+                            <div class="method-head">
+                                <div class="icon">📅</div>
+                                <div>
+                                    <h4>Agenda una reunión</h4>
+                                    <p class="muted">Reserva una videollamda para discutir tu proyecto en profundidad y
+                                        conocer mejor tu visión.</p>
+                                </div>
+                            </div>
+                            <div class="method-cta"><a class="cta-large" href="https://calendly.com/" target="_blank"
+                                    rel="noopener noreferrer">Agendá una demo</a></div>
+                        </div>
+                    </div>
+
+                    <div class="hours">
+                        <div><strong>Horario Atención:</strong> Lun–Sab 09:00–21:00 (UTC-3)</div>
+                        <div><strong>Tiempo de respuesta:</strong> 10min–1hs</div>
+                    </div>
+                </div>
+
+
+                <section style="max-width:1100px;margin:28px auto 0">
+                    <div class="muted center">Preferís mensaje directo? WhatsApp: <strong>+54 9 351 518 9273</strong> •
+                        Email:
+                        <strong>ltsfitware@gmail.com</strong>
+                    </div>
+                </section>
+        </main>
+
+        <footer class="site-footer" role="contentinfo">
+            LTS Fitware • © <span id="year"></span>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        (function () {
+            const selector = '.member-card, .card, .step, .contact-method';
+            const els = document.querySelectorAll(selector);
+            if ('IntersectionObserver' in window) {
+                const io = new IntersectionObserver((entries, obs) => {
+                    entries.forEach(e => {
+                        if (e.isIntersecting) {
+                            e.target.classList.add('visible', 'in-view');
+                            obs.unobserve(e.target);
+                        }
+                    });
+                }, { threshold: 0.12 });
+                els.forEach(el => io.observe(el));
+            } else {
+                els.forEach(el => el.classList.add('visible', 'in-view'));
+            }
+        })();
+
+        document.addEventListener('click', (e) => {
+            const btn = e.target.closest('.flip-btn');
+            if (!btn) return;
+            const card = btn.closest('.member-card');
+            if (card) card.classList.toggle('flipped');
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key !== 'Enter' && e.key !== ' ') return;
+            const el = document.activeElement;
+            if (el && el.classList && el.classList.contains('member-card')) {
+                e.preventDefault();
+                el.classList.toggle('flipped');
+            }
+        });
+
+        (function () {
+            document.querySelectorAll('.avatar').forEach(wrapper => {
+                const img = wrapper.querySelector('.avatar-img');
+                const fallback = wrapper.querySelector('.avatar-fallback');
+                if (!img) { if (fallback) fallback.style.display = 'flex'; return; }
+                img.addEventListener('load', () => { if (img.naturalWidth) { img.style.display = 'block'; fallback && (fallback.style.display = 'none'); } });
+                img.addEventListener('error', () => { img.style.display = 'none'; fallback && (fallback.style.display = 'flex'); });
+                setTimeout(() => { if (img && (!img.naturalWidth || img.naturalHeight === 0)) { img.style.display = 'none'; fallback && (fallback.style.display = 'flex'); } }, 80);
+            });
+        })();
+
+        (function () {
+            if ('IntersectionObserver' in window) {
+                const steps = document.querySelectorAll('.timeline .step');
+                const obs = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('in-view'); });
+                }, { threshold: 0.16 });
+                steps.forEach(s => obs.observe(s));
+            } else {
+                document.querySelectorAll('.timeline .step').forEach(s => s.classList.add('in-view'));
+            }
+        })();
+
+        (function () {
+            if (!('matchMedia' in window) || !window.matchMedia('(pointer:fine)').matches) return;
+            const elements = document.querySelectorAll('.card, .member-card, .contact-method');
+            elements.forEach(el => {
+                let raf = null;
+                const handler = (e) => {
+                    if (raf) cancelAnimationFrame(raf);
+                    raf = requestAnimationFrame(() => {
+                        const r = el.getBoundingClientRect();
+                        const px = (e.clientX - r.left) / r.width - 0.5;
+                        const py = (e.clientY - r.top) / r.height - 0.5;
+                        const rx = (-py * 3).toFixed(2);
+                        const ry = (px * 3).toFixed(2);
+                        el.style.transform = `translateY(-6px) rotateX(${rx}deg) rotateY(${ry}deg) scale(1.01)`;
+                    });
+                };
+                el.addEventListener('pointermove', handler);
+                el.addEventListener('pointerleave', () => { el.style.transform = ''; });
+            });
+        })();
+
+        (function () {
+            const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+            if (mq && mq.matches) document.querySelectorAll('.card, .member-card, .step, .contact-method').forEach(el => el.style.transition = 'none');
+        })();
+
+        (function () {
+            const navToggle = document.getElementById('navToggle');
+            const navClose = document.getElementById('navClose');
+            const mobileMenu = document.getElementById('mobileMenu');
+            function openMenu() {
+                mobileMenu.classList.add('open');
+                mobileMenu.setAttribute('aria-hidden', 'false');
+                navToggle.setAttribute('aria-expanded', 'true');
+                document.body.style.overflow = 'hidden';
+            }
+            function closeMenu() {
+                mobileMenu.classList.remove('open');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                navToggle.setAttribute('aria-expanded', 'false');
+                document.body.style.overflow = '';
+            }
+            navToggle.addEventListener('click', (e) => {
+                const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+                if (expanded) closeMenu(); else openMenu();
+            });
+            navClose.addEventListener('click', closeMenu);
+            mobileMenu.addEventListener('click', (e) => {
+                if (e.target === mobileMenu) closeMenu();
+                if (e.target.classList.contains('mobile-link')) closeMenu();
+            });
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 980 && mobileMenu.classList.contains('open')) closeMenu();
+            });
+        })();
+    </script>
+</body>
+
+</html>
